@@ -1,0 +1,15 @@
+{
+	"name" : "fastblocks/fast-core",
+	"type": "library",
+	"description" : "",
+	"homepage": "http://fastblocks.github.io/fast-core",
+	"authors": [
+		{
+			"name" : "Silvio Queiroz",
+			"email": "silvio.queiroz@gmail.com"
+		}
+	],
+	"require": {
+		"php" : ">=5.2.8"
+	}
+}
