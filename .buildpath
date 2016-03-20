@@ -5,16 +5,45 @@
 	<buildpathentry kind="src" path="vendor/myclabs/php-enum/src"/>
 	<buildpathentry kind="src" path="vendor/container-interop/container-interop/src/Interop/Container"/>
 	<buildpathentry kind="src" path="src"/>
+<<<<<<< HEAD
 	<buildpathentry kind="src" path="vendor/doctrine/cache/lib/Doctrine/Common/Cache"/>
+=======
+	<buildpathentry kind="src" path="vendor/phpunit/php-text-template/src"/>
+>>>>>>> branch 'develop' of https://github.com/fastblocks/fast-core.git
 	<buildpathentry kind="src" path="vendor/ocramius/proxy-manager/src"/>
+<<<<<<< HEAD
+=======
+	<buildpathentry kind="src" path="vendor/phpunit/phpunit/PHPUnit"/>
+>>>>>>> branch 'develop' of https://github.com/fastblocks/fast-core.git
 	<buildpathentry excluding="sysplugins/" kind="src" path="vendor/smarty/smarty/libs"/>
+<<<<<<< HEAD
 	<buildpathentry external="true" kind="lib" path="C:/Users/Silvio/git/fast-core/vendor"/>
 	<buildpathentry kind="src" path="vendor/doctrine/lexer/lib"/>
 	<buildpathentry kind="src" path="vendor/zendframework/zend-eventmanager/src"/>
+=======
+	<buildpathentry kind="src" path="vendor/phpunit/php-code-coverage/PHP"/>
+>>>>>>> branch 'develop' of https://github.com/fastblocks/fast-core.git
 	<buildpathentry kind="src" path="vendor/doctrine/annotations/lib"/>
 	<buildpathentry kind="src" path="vendor/composer"/>
+<<<<<<< HEAD
 	<buildpathentry kind="src" path="vendor/mnapoli/php-di/src/DI"/>
+=======
+	<buildpathentry kind="src" path="vendor/phpunit/php-file-iterator/src"/>
+>>>>>>> branch 'develop' of https://github.com/fastblocks/fast-core.git
 	<buildpathentry kind="src" path="vendor/php-di/phpdoc-reader/src"/>
 	<buildpathentry kind="con" path="org.eclipse.php.core.LANGUAGE"/>
+<<<<<<< HEAD
+=======
+	<buildpathentry kind="src" path="vendor/phpunit/phpunit-mock-objects/PHPUnit"/>
+	<buildpathentry kind="src" path="modules/logger"/>
+	<buildpathentry kind="src" path="vendor/doctrine/cache/lib/Doctrine/Common/Cache"/>
+	<buildpathentry kind="src" path="vendor/phpunit/php-token-stream/PHP"/>
+	<buildpathentry external="true" kind="lib" path="C:/Users/Silvio/git/fast-core/vendor"/>
+	<buildpathentry kind="src" path="vendor/doctrine/lexer/lib"/>
+	<buildpathentry kind="src" path="vendor/phpunit/php-timer/src"/>
+	<buildpathentry kind="src" path="vendor/zendframework/zend-eventmanager/src"/>
+	<buildpathentry kind="src" path="vendor/mnapoli/php-di/src/DI"/>
+	<buildpathentry kind="src" path="vendor/symfony/yaml"/>
+>>>>>>> branch 'develop' of https://github.com/fastblocks/fast-core.git
 	<buildpathentry kind="src" path="vendor/zendframework/zend-code/src"/>
 </buildpath>
