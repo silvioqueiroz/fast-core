@@ -1,5 +1,5 @@
 <?php
-namespace fastblocks\modules\logger;
+namespace fastblocks\logger;
 
 use fastblocks\core\application\Configuration;
 
@@ -28,16 +28,15 @@ class LoggerFactory
         // TODO: deve ser removido o padrão singleton. cada classe deve ter seu log.
         if (self::$logger == null) {
             // load definitions
-            $log_properties = Configuration::CONNECTION_PROPERTIES();
+            $log_properties = Configuration::LOG_PROPERTIES();
             // adicionar verificação de nível debug para apresentação dos dados na página debug
             echo 'load definitions <br/>';
-            echo '$LOG_PROPERTIES::level : ' . $log_properties["level"];
-            echo '$log_properties::level : ' . $log_properties["level"];
+            echo '$LOG_PROPERTIES::level : ' . $log_properties["level"] . '<br/>';
+            echo '$log_properties::level : ' . $log_properties["level"]. '<br/>';
+            echo '$log_properties::type : ' . $log_properties[self::TYPE_PROPERTY]. '<br/>';
             self::$level = $log_properties[self::LEVEL_PROPERTY];
-            echo $log_properties[self::TYPE_PROPERTY];
             self::$type = $log_properties[self::TYPE_PROPERTY];
             self::$path = $log_properties[self::PATH_PROPERTY];
-            echo LoggerFactory::$type;
             // create logger
             self::$logger = new LoggerFactory::$type(self::$path);
             self::$logger->setLevel(self::$level);
