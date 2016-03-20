@@ -1,5 +1,5 @@
 <?php
-namespace fastblocks\modules\logger;
+namespace fastblocks\logger;
 
 /**
  * Description of TLoggerclass

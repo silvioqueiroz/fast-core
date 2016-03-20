@@ -3,7 +3,7 @@ namespace fastblocks\core\application;
 
 use fastblocks\core\application\Configuration;
 use fastblocks\core\exception\PageNotFoundException;
-use fastblocks\modules\logger\LoggerFactory as Logger;
+use fastblocks\logger\LoggerFactory as Logger;
 use fastblocks\core\context\Request;
 
 class Application
