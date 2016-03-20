@@ -1,0 +1,4 @@
+com.dubture.composer.corebuildpath.includes.excludes=<buildpathentry kind\="src" path\="vendor"/>\r\n
+com.dubture.composer.coresaveaction.buildpath=True
+com.dubture.composer.coresaveaction.update=True
+eclipse.preferences.version=1

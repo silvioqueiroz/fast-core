@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	
+	elementFormDefault="qualified">
+	<xs:element name="pages">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" ref="page" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="page">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="base" type="xs:string" />
+				<xs:element ref="parts" />
+			</xs:sequence>
+			<xs:attribute name="id" use="required" type="xs:NCName" />
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="base" type="xs:string" />
+	<xs:element name="parts">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element maxOccurs="unbounded" ref="part" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="part">
+		<xs:complexType>
+			<xs:attribute name="id" use="required" type="xs:NCName" />
+		</xs:complexType>
+	</xs:element>
+</xs:schema>
